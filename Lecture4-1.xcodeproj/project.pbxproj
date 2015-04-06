@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		755362BA1AD298E000AEBD9E /* iPhone4Small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 755362B81AD298E000AEBD9E /* iPhone4Small.jpg */; };
+		755362BB1AD298E000AEBD9E /* iPhone3Small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 755362B91AD298E000AEBD9E /* iPhone3Small.jpg */; };
 		758F71241AD1B4AD00258031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 758F71231AD1B4AD00258031 /* main.m */; };
 		758F71271AD1B4AD00258031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 758F71261AD1B4AD00258031 /* AppDelegate.m */; };
 		758F712A1AD1B4AD00258031 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758F71291AD1B4AD00258031 /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		758F712F1AD1B4AD00258031 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758F712E1AD1B4AD00258031 /* Images.xcassets */; };
 		758F71321AD1B4AD00258031 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758F71301AD1B4AD00258031 /* LaunchScreen.xib */; };
 		758F713E1AD1B4AD00258031 /* Lecture4_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 758F713D1AD1B4AD00258031 /* Lecture4_1Tests.m */; };
+		758F71491AD1B7BE00258031 /* 529f438bf0585.png in Resources */ = {isa = PBXBuildFile; fileRef = 758F71471AD1B7BE00258031 /* 529f438bf0585.png */; };
+		758F714A1AD1B7BE00258031 /* 529f436834068.png in Resources */ = {isa = PBXBuildFile; fileRef = 758F71481AD1B7BE00258031 /* 529f436834068.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		755362B81AD298E000AEBD9E /* iPhone4Small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iPhone4Small.jpg; path = ../../../../../Downloads/iPhone4Small.jpg; sourceTree = "<group>"; };
+		755362B91AD298E000AEBD9E /* iPhone3Small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iPhone3Small.jpg; path = ../../../../../Downloads/iPhone3Small.jpg; sourceTree = "<group>"; };
 		758F711E1AD1B4AD00258031 /* Lecture4-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecture4-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		758F71221AD1B4AD00258031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		758F71231AD1B4AD00258031 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,8 @@
 		758F71371AD1B4AD00258031 /* Lecture4-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lecture4-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		758F713C1AD1B4AD00258031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		758F713D1AD1B4AD00258031 /* Lecture4_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lecture4_1Tests.m; sourceTree = "<group>"; };
+		758F71471AD1B7BE00258031 /* 529f438bf0585.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 529f438bf0585.png; path = ../../../../../Downloads/529f438bf0585.png; sourceTree = "<group>"; };
+		758F71481AD1B7BE00258031 /* 529f436834068.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 529f436834068.png; path = ../../../../../Downloads/529f436834068.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 		758F71201AD1B4AD00258031 /* Lecture4-1 */ = {
 			isa = PBXGroup;
 			children = (
+				758F71471AD1B7BE00258031 /* 529f438bf0585.png */,
+				758F71481AD1B7BE00258031 /* 529f436834068.png */,
+				755362B81AD298E000AEBD9E /* iPhone4Small.jpg */,
+				755362B91AD298E000AEBD9E /* iPhone3Small.jpg */,
 				758F71251AD1B4AD00258031 /* AppDelegate.h */,
 				758F71261AD1B4AD00258031 /* AppDelegate.m */,
 				758F71281AD1B4AD00258031 /* ViewController.h */,
@@ -163,6 +175,7 @@
 		758F71161AD1B4AD00258031 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MMA;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Desislava Stoyanova";
 				TargetAttributes = {
@@ -199,9 +212,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				758F714A1AD1B7BE00258031 /* 529f436834068.png in Resources */,
 				758F712D1AD1B4AD00258031 /* Main.storyboard in Resources */,
 				758F71321AD1B4AD00258031 /* LaunchScreen.xib in Resources */,
+				755362BA1AD298E000AEBD9E /* iPhone4Small.jpg in Resources */,
 				758F712F1AD1B4AD00258031 /* Images.xcassets in Resources */,
+				758F71491AD1B7BE00258031 /* 529f438bf0585.png in Resources */,
+				755362BB1AD298E000AEBD9E /* iPhone3Small.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +429,7 @@
 				758F71431AD1B4AD00258031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		758F71441AD1B4AD00258031 /* Build configuration list for PBXNativeTarget "Lecture4-1Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +438,7 @@
 				758F71461AD1B4AD00258031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
